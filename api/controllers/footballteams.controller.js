@@ -43,7 +43,7 @@ function getfootballteamsbyId(req, res) {
 
   } catch (error) {
     console.log("Was an error");
-    controllerHelper.handleErrorResponse(MODULE_NAME, getfootballteamsbyId.name, error, res);
+    controllerHelper.handleErrorResponse(MODULE_NAME, getfootballteamsbyId.Name, error, res);
   }
 }
 
@@ -70,7 +70,7 @@ function getFootballteams(req, res) {
    });
 
   } catch (error) {
-    controllerHelper.handleErrorResponse(MODULE_NAME, getFootballteams.name, error, res);
+    controllerHelper.handleErrorResponse(MODULE_NAME, getfootballteams.Name, error, res);
   }
 }
 
@@ -150,7 +150,7 @@ function addFootballteams(req, res) {
 
   } catch (error) {
     console.log("Was an error");
-    controllerHelper.handleErrorResponse(MODULE_NAME, addFootballteams.name, error, res);
+    controllerHelper.handleErrorResponse(MODULE_NAME, addFootballteams.Name, error, res);
   }
 }
 

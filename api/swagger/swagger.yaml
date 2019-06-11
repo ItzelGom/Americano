@@ -3,7 +3,8 @@ info:
   version: "1.0.1"
   title:  Hello World App
 # during dev, should point to your local machine
-host: my-americano-api.appspot.com
+#host: my-american-api.appspot.com
+host: localhost:10010
 # basePath prefixes all resource paths 
 basePath: /
 # 
@@ -165,10 +166,10 @@ definitions:
       id:
         type: number
         description: identifier
-      name:
+      Name:
         type: string
         description: Name of the Football Teams
-      city:
+      City:
         type: string
         description: City from of the city
       Conference:
